@@ -31,6 +31,13 @@
                                 </tr>
                             </thead>
                         </table>
+
+                        <div class="d-flex gap-2 mb-3">
+    <a href="{{ route('print.jabatan') }}" class="btn btn-success btn-md">Print Jabatan</a>
+    <a href="{{ route('grafik.jabatan') }}" class="btn btn-danger btn-md">Grafik Jabatan</a>
+    <a href="{{ route('export.excel') }}" class="btn btn-info btn-md">Export Excel</a>
+</div>
+
                     </div>
                 </div>
             </div>
