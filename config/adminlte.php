@@ -327,6 +327,11 @@ return [
                 'route'=> 'jabatan.index',
                 'icon' => 'fas fa-fw fa-star',
         ],
+        [
+                'text' => 'Lokasi',
+                'route'=> 'lokasi.index',
+                'icon' => 'fas fa-fw fa-building',
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
